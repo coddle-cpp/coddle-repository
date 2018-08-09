@@ -2,6 +2,7 @@
 name="curl"
 git="git@github.com:curl/curl.git"
 version="master"
+includes=["curl.h"]
 
 [[library]]
 name="sdlpp"
