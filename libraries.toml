@@ -7,3 +7,8 @@ version="master"
 name="sdlpp"
 git="git@github.com:antonte/sdlpp.git"
 version="master"
+
+[[library]]
+name="civetweb"
+git="git@github.com:antonte/civetweb.git"
+version="master"
