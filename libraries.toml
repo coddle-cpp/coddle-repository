@@ -1,1 +1,9 @@
-[]
+[[library]]
+name="curl"
+git="git@github.com:curl/curl.git"
+version="master"
+
+[[library]]
+name="sdlpp"
+git="git@github.com:antonte/sdlpp.git"
+version="master"
