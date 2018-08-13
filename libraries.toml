@@ -1,15 +1,28 @@
 [[library]]
-name="curl"
-git="git@github.com:curl/curl.git"
-version="master"
-includes=["curl.h"]
-
-[[library]]
+type="git"
 name="sdlpp"
-git="git@github.com:antonte/sdlpp.git"
-version="master"
+path="git@github.com:antonte/sdlpp.git"
+includes=["sdlpp/sdlpp.hpp"]
 
 [[library]]
-name="civetweb"
-git="git@github.com:antonte/civetweb.git"
-version="master"
+type="pkgconfig"
+name="sdl2"
+includes=["SDL.h"]
+
+[[library]]
+type="file"
+name="shade"
+path="/home/anton/prj/shade"
+includes=[
+  "shade/array_buffer.hpp",
+  "shade/gl_check_error.hpp",
+  "shade/obj.hpp",
+  "shade/shader_program.hpp",
+  "shade/texture_library.hpp",
+  "shade/var.hpp"
+]
+
+[[library]]
+type="lib"
+name="GL"
+includes=["SDL_opengl.h"]
