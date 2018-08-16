@@ -26,3 +26,10 @@ includes=[
 type="lib"
 name="GL"
 includes=["SDL_opengl.h"]
+
+[[library]]
+type="git"
+name="cpptoml"
+path="https://github.com/skystrife/cpptoml.git"
+postClone="mv include/* ."
+includes=["cpptoml/cpptoml.h"]
