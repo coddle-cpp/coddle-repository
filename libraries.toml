@@ -10,6 +10,20 @@ name="sdl2"
 includes=["SDL.h"]
 
 [[library]]
+type="lib"
+name="GL"
+includes=["SDL_opengl.h"]
+
+[[library]]
+type="git"
+name="cpptoml"
+path="https://github.com/skystrife/cpptoml.git"
+postClone="mv include/* ."
+includes=["cpptoml/cpptoml.h"]
+
+# file repos WIP
+
+[[library]]
 type="file"
 name="shade"
 path="/home/anton/prj/shade"
@@ -23,13 +37,7 @@ includes=[
 ]
 
 [[library]]
-type="lib"
-name="GL"
-includes=["SDL_opengl.h"]
-
-[[library]]
-type="git"
-name="cpptoml"
-path="https://github.com/skystrife/cpptoml.git"
-postClone="mv include/* ."
-includes=["cpptoml/cpptoml.h"]
+type="file"
+name="log"
+includes=["log/log.hpp"]
+path="/home/anton/prj/log"
