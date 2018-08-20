@@ -41,3 +41,9 @@ type="file"
 name="log"
 includes=["log/log.hpp"]
 path="/home/anton/prj/log"
+
+[[library]]
+type="file"
+name="coeff"
+includes=["coeff/coefficient.hpp", "coeff/coefficient_registry.hpp"]
+path="/home/anton/prj/coeff"
