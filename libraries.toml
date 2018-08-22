@@ -1,7 +1,7 @@
 [[library]]
 type="git"
 name="sdlpp"
-path="git@github.com:antonte/sdlpp.git"
+path="https://github.com/antonte/sdlpp.git"
 includes=["sdlpp/sdlpp.hpp"]
 
 [[library]]
@@ -104,9 +104,9 @@ includes=["cpptoml/cpptoml.h"]
 # file repos WIP
 
 [[library]]
-type="file"
+type="git"
 name="shade"
-path="/home/anton/prj/shade"
+path="https://github.com/antonte/shade.git"
 includes=[
   "shade/array_buffer.hpp",
   "shade/gl_check_error.hpp",
@@ -117,13 +117,13 @@ includes=[
 ]
 
 [[library]]
-type="file"
+type="git"
 name="log"
 includes=["log/log.hpp"]
-path="/home/anton/prj/log"
+path="https://github.com/antonte/log.git"
 
 [[library]]
-type="file"
+type="git"
 name="coeff"
 includes=["coeff/coefficient.hpp", "coeff/coefficient_registry.hpp"]
-path="/home/anton/prj/coeff"
+path="https://github.com/antonte/coeff.git"
