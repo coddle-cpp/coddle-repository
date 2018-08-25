@@ -101,6 +101,12 @@ path="https://github.com/skystrife/cpptoml.git"
 postClone="mv include/* ."
 includes=["cpptoml/cpptoml.h"]
 
+[[library]]
+type="git"
+name="fastnoise"
+path="https://github.com/Auburns/FastNoise.git"
+includes=["fastnoise/FastNoise.h"]
+
 # file repos WIP
 
 [[library]]
