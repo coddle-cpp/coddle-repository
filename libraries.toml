@@ -18,8 +18,8 @@ includes=["SDL_opengl.h"]
 type="git"
 name="cpptoml"
 path="https://github.com/skystrife/cpptoml.git"
-postClone="mv include/* ."
-includes=["cpptoml/cpptoml.h"]
+includes=["cpptoml.h"]
+incdir="include"
 
 [[library]]
 type="git"
