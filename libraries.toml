@@ -1,7 +1,7 @@
 [[library]]
 type="git"
 name="sdlpp"
-path="git@github.com:antonte/sdlpp.git"
+path="https://github.com/antonte/sdlpp.git"
 includes=["sdlpp/sdlpp.hpp"]
 
 [[library]]
