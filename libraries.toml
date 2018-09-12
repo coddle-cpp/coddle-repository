@@ -30,12 +30,10 @@ name="fastnoise"
 path="https://github.com/Auburns/FastNoise.git"
 includes=["fastnoise/FastNoise.h"]
 
-# file repos WIP
-
 [[library]]
-type="file"
+type="git"
 name="shade"
-path="/home/anton/prj/shade"
+path="https://github.com/antonte/shade.git"
 includes=[
   "shade/array_buffer.hpp",
   "shade/gl_check_error.hpp",
@@ -46,13 +44,13 @@ includes=[
 ]
 
 [[library]]
-type="file"
+type="git"
 name="log"
 includes=["log/log.hpp"]
-path="/home/anton/prj/log"
+path="https://github.com/antonte/log.git"
 
 [[library]]
-type="file"
+type="git"
 name="coeff"
 includes=["coeff/coeff.hpp", "coeff/coeff_reg.hpp"]
-path="/home/anton/prj/coeff"
+path="https://github.com/antonte/coeff.git"
