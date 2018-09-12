@@ -54,3 +54,10 @@ type="git"
 name="coeff"
 includes=["coeff/coeff.hpp", "coeff/coeff_reg.hpp"]
 path="https://github.com/antonte/coeff.git"
+
+[[library]]
+type="git"
+name="glm"
+includes=[ "glm/gtx/normal.hpp", "glm/gtx/transform.hpp", "glm/gtx/vec_swizzle.hpp", "glm/mat4x4.hpp", "glm/vec2.hpp", "glm/vec3.hpp" ]
+path="https://github.com/g-truc/glm.git"
+incdir="."
