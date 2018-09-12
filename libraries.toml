@@ -15,8 +15,8 @@ includes=["SDL.h"]
 [[library]]
 type="git"
 name="opengl32"
-path="https://github.com/antonte/mesa-devel.git"
-libdir="x64"
+path="https://github.com/antonte/glew-devel.git"
+libdir="lib/Release/x64"
 includes=["SDL_opengl.h"]
 
 [[library]]
