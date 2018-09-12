@@ -5,8 +5,11 @@ path="git@github.com:antonte/sdlpp.git"
 includes=["sdlpp/sdlpp.hpp"]
 
 [[library]]
-type="pkgconfig"
+type="git"
 name="sdl2"
+path="https://github.com/antonte/sdl2-devel.git"
+incdir="include"
+libdir="lib/x64"
 includes=["SDL.h"]
 
 [[library]]
