@@ -13,6 +13,13 @@ libdir="lib/x64"
 includes=["SDL.h"]
 
 [[library]]
+type="git"
+name="opengl32"
+path="https://github.com/antonte/mesa-devel.git"
+libdir="x64"
+includes=["SDL_opengl.h"]
+
+[[library]]
 type="lib"
 name="SDL2main"
 includes=["SDL.h"]
