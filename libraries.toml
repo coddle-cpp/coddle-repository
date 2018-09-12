@@ -13,6 +13,11 @@ libdir="lib/x64"
 includes=["SDL.h"]
 
 [[library]]
+type="lib"
+name="SDL2main"
+includes=["SDL.h"]
+
+[[library]]
 type="git"
 name="cpptoml"
 path="https://github.com/skystrife/cpptoml.git"
