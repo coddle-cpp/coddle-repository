@@ -27,6 +27,11 @@ name="fastnoise"
 path="https://github.com/Auburns/FastNoise.git"
 includes=["fastnoise/FastNoise.h"]
 
+[[library]]
+type="pkgconfig"
+name="libtomcrypt"
+includes=["tomcrypt.h"]
+
 # file repos WIP
 
 [[library]]
