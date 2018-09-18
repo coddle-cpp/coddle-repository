@@ -98,8 +98,19 @@ includes=["SDL_opengl.h", "GL/glut.h"]
 type="git"
 name="cpptoml"
 path="https://github.com/skystrife/cpptoml.git"
-postClone="mv include/* ."
-includes=["cpptoml/cpptoml.h"]
+includes=["cpptoml.h"]
+incdir="include"
+
+[[library]]
+type="git"
+name="fastnoise"
+path="https://github.com/Auburns/FastNoise.git"
+includes=["fastnoise/FastNoise.h"]
+
+[[library]]
+type="pkgconfig"
+name="libtomcrypt"
+includes=["tomcrypt.h"]
 
 [[library]]
 type="git"
@@ -131,5 +142,5 @@ path="https://github.com/antonte/log.git"
 [[library]]
 type="git"
 name="coeff"
-includes=["coeff/coefficient.hpp", "coeff/coefficient_registry.hpp"]
+includes=["coeff/coeff.hpp", "coeff/coeff_reg.hpp"]
 path="https://github.com/antonte/coeff.git"
