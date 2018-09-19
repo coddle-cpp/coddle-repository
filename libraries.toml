@@ -10,6 +10,11 @@ name="sdl2"
 includes=["SDL.h"]
 
 [[library]]
+type="pkgconfig"
+name="libuv"
+includes=["uv.h"]
+
+[[library]]
 type="lib"
 name="GL"
 includes=["SDL_opengl.h"]
@@ -58,3 +63,20 @@ type="file"
 name="coeff"
 includes=["coeff/coeff.hpp", "coeff/coeff_reg.hpp"]
 path="/home/anton/prj/coeff"
+
+[[library]]
+type="file"
+name="net"
+path="/home/anton/prj/irl/net"
+includes=[
+  "net/client.hpp",
+  "net/server.hpp"
+]
+
+[[library]]
+type="file"
+name="sched"
+path="/home/anton/prj/irl/sched"
+includes=[
+  "sched/sched.hpp"
+]
