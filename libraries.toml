@@ -108,8 +108,8 @@ path="https://github.com/Auburns/FastNoise.git"
 includes=["fastnoise/FastNoise.h"]
 
 [[library]]
-type="pkgconfig"
-name="libtomcrypt"
+type="lib"
+name="tomcrypt"
 includes=["tomcrypt.h"]
 
 [[library]]
