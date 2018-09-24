@@ -37,6 +37,12 @@ type="pkgconfig"
 name="libtomcrypt"
 includes=["tomcrypt.h"]
 
+[[library]]
+type="git"
+path="https://github.com/catchorg/Catch2.git"
+includes=["catch.h"]
+incdir="single_include/catch2"
+
 # file repos WIP
 
 [[library]]
