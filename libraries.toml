@@ -39,6 +39,7 @@ includes=["tomcrypt.h"]
 
 [[library]]
 type="git"
+name="catch2"
 path="https://github.com/catchorg/Catch2.git"
 includes=["catch.hpp"]
 incdir="single_include/catch2"
