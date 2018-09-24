@@ -126,7 +126,7 @@ includes=["fastnoise/FastNoise.h"]
 [[library]]
 type="git"
 path="https://github.com/catchorg/Catch2.git"
-includes=["catch.h"]
+includes=["catch.hpp"]
 incdir="single_include/catch2"
 
 # file repos WIP
