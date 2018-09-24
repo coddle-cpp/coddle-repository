@@ -91,6 +91,11 @@ includes=["GL/glut.h"]
 
 [[library]]
 type="lib"
+name="libuv"
+includes=["uv.h"]
+
+[[library]]
+type="lib"
 name="GL"
 includes=["SDL_opengl.h", "GL/glut.h"]
 
@@ -118,6 +123,12 @@ name="fastnoise"
 path="https://github.com/Auburns/FastNoise.git"
 includes=["fastnoise/FastNoise.h"]
 
+[[library]]
+type="git"
+path="https://github.com/catchorg/Catch2.git"
+includes=["catch.h"]
+incdir="single_include/catch2"
+
 # file repos WIP
 
 [[library]]
@@ -144,3 +155,20 @@ type="git"
 name="coeff"
 includes=["coeff/coeff.hpp", "coeff/coeff_reg.hpp"]
 path="https://github.com/antonte/coeff.git"
+
+[[library]]
+type="file"
+name="net"
+path="/home/anton/prj/irl/net"
+includes=[
+  "net/client.hpp",
+  "net/server.hpp"
+]
+
+[[library]]
+type="file"
+name="sched"
+path="/home/anton/prj/irl/sched"
+includes=[
+  "sched/sched.hpp"
+]
