@@ -95,9 +95,9 @@ name="libuv"
 includes=["uv.h"]
 
 [[library]]
-type="lib"
-name="GL"
-includes=["SDL_opengl.h", "GL/glut.h"]
+type="framework"
+name="OpenGL"
+includes=["SDL_opengl.h", "GL/glut.h", "OpenGL/gl3.h"]
 
 [[library]]
 type="git"
