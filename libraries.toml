@@ -162,7 +162,7 @@ type="file"
 name="net"
 path="/home/anton/prj/irl/net"
 includes=[
-  "net/client.hpp",
+  "net/conn.hpp",
   "net/server.hpp"
 ]
 
