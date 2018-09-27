@@ -118,6 +118,11 @@ name="tomcrypt"
 includes=["tomcrypt.h"]
 
 [[library]]
+type="lib"
+name="tommath"
+includes=["tomcrypt.h"]
+
+[[library]]
 type="git"
 name="fastnoise"
 path="https://github.com/Auburns/FastNoise.git"
