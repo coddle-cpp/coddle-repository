@@ -97,7 +97,12 @@ includes=["uv.h"]
 [[library]]
 type="framework"
 name="OpenGL"
-includes=["SDL_opengl.h", "GL/glut.h", "OpenGL/gl3.h"]
+includes=["SDL_opengl.h", "GL/glut.h", "OpenGL/gl3.h", "GL/glew.h"]
+
+[[library]]
+type="lib"
+name="GLEW"
+includes=["GL/glew.h"]
 
 [[library]]
 type="git"
