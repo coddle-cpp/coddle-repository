@@ -13,11 +13,19 @@ libdir="lib/x64"
 includes=["SDL.h"]
 
 [[library]]
-type="git"
-name="opengl32"
-path="https://github.com/antonte/glew-devel.git"
-libdir="lib/Release/x64"
-includes=["SDL_opengl.h"]
+type="lib"
+name="glut"
+includes=["GL/glut.h"]
+
+[[library]]
+type="lib"
+name="libuv"
+includes=["uv.h"]
+
+[[library]]
+type="lib"
+name="GL"
+includes=["SDL_opengl.h", "GL/glut.h"]
 
 [[library]]
 type="lib"
@@ -36,6 +44,21 @@ type="git"
 name="fastnoise"
 path="https://github.com/Auburns/FastNoise.git"
 includes=["fastnoise/FastNoise.h"]
+
+[[library]]
+type="git"
+name="fastnoise"
+path="https://github.com/Auburns/FastNoise.git"
+includes=["fastnoise/FastNoise.h"]
+
+[[library]]
+type="git"
+name="catch2"
+path="https://github.com/catchorg/Catch2.git"
+includes=["catch2/catch.hpp"]
+incdir="single_include"
+
+# file repos WIP
 
 [[library]]
 type="git"
@@ -68,3 +91,20 @@ name="glm"
 includes=[ "glm/gtx/normal.hpp", "glm/gtx/transform.hpp", "glm/gtx/vec_swizzle.hpp", "glm/mat4x4.hpp", "glm/vec2.hpp", "glm/vec3.hpp" ]
 path="https://github.com/g-truc/glm.git"
 incdir="."
+
+[[library]]
+type="file"
+name="net"
+path="/home/anton/prj/irl/net"
+includes=[
+  "net/client.hpp",
+  "net/server.hpp"
+]
+
+[[library]]
+type="file"
+name="sched"
+path="/home/anton/prj/irl/sched"
+includes=[
+  "sched/sched.hpp"
+]
