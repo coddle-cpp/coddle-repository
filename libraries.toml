@@ -90,7 +90,7 @@ name="glut"
 includes=["GL/glut.h"]
 
 [[library]]
-type="lib"
+type="pkgconfig"
 name="libuv"
 includes=["uv.h"]
 
