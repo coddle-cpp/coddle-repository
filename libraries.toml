@@ -141,8 +141,8 @@ includes=[
   "shade/gl_check_error.hpp",
   "shade/obj.hpp",
   "shade/shader_program.hpp",
-  "shade/texture_library.hpp",
-  "shade/var.hpp"
+  "shade/var.hpp",
+  "shade/library.hpp"
 ]
 
 [[library]]
