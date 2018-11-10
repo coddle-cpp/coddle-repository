@@ -118,6 +118,16 @@ name="libtomcrypt"
 includes=["tomcrypt.h"]
 
 [[library]]
+type="pkgconfig"
+name="libpulse-simple"
+includes=["pulse/simple.h"]
+
+[[library]]
+type="pkgconfig"
+name="libpulse"
+includes=["pulse/simple.h"]
+
+[[library]]
 type="git"
 name="fastnoise"
 path="https://github.com/Auburns/FastNoise.git"
