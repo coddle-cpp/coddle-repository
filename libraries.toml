@@ -140,6 +140,14 @@ path="https://github.com/catchorg/Catch2.git"
 includes=["catch2/catch.hpp"]
 incdir="single_include"
 
+[[library]]
+type="git"
+name="easy_draw"
+path="https://github.com/antonte/easy-draw.git"
+includes=[
+  "easy_draw/easy_draw.hpp"
+]
+
 # file repos WIP
 
 [[library]]
