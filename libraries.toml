@@ -116,3 +116,8 @@ path="/home/anton/prj/irl/sched"
 includes=[
   "sched/sched.hpp"
 ]
+
+[[library]]
+type="pkgconfig"
+name="libcurl"
+includes=["curl/curl.h"]
