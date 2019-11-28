@@ -66,11 +66,6 @@ includes=["curl/curl.h"]
 
 [[library]]
 type="pkgconfig"
-name="libcurl"
-includes=["curl/curl.h"]
-
-[[library]]
-type="pkgconfig"
 name="libpulse"
 includes=["pulse/thread-mainloop.h", "pulse/context.h", "pulse/stream.h", "pulse/scache.h"]
 
