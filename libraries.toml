@@ -5,6 +5,11 @@ path="https://github.com/antonte/sdlpp.git"
 includes=["sdlpp/sdlpp.hpp"]
 
 [[library]]
+type="lib"
+name="Ws2_32"
+includes=["Winsock2.h"]
+
+[[library]]
 type="git"
 name="sdl2"
 path="https://github.com/antonte/sdl2-devel.git"
