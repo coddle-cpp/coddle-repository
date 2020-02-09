@@ -126,3 +126,8 @@ includes=[
 type="pkgconfig"
 name="libcurl"
 includes=["curl/curl.h"]
+
+[[library]]
+type="lib"
+name="tomcrypt"
+includes=["tomcrypt.h"]
