@@ -114,3 +114,8 @@ includes=["curl/curl.h"]
 type="lib"
 name="tomcrypt"
 includes=["tomcrypt.h"]
+
+[[library]]
+type="lib"
+name="tommath"
+includes=["tomcrypt.h"]
