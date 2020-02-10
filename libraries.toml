@@ -106,23 +106,6 @@ path="https://github.com/g-truc/glm.git"
 incdir="."
 
 [[library]]
-type="file"
-name="net"
-path="/home/anton/prj/irl/net"
-includes=[
-  "net/client.hpp",
-  "net/server.hpp"
-]
-
-[[library]]
-type="file"
-name="sched"
-path="/home/anton/prj/irl/sched"
-includes=[
-  "sched/sched.hpp"
-]
-
-[[library]]
 type="pkgconfig"
 name="libcurl"
 includes=["curl/curl.h"]
