@@ -113,9 +113,10 @@ includes=["curl/curl.h"]
 [[library]]
 type="lib"
 name="tomcrypt"
+dependencies=["tommath"]
 includes=["tomcrypt.h"]
 
 [[library]]
 type="lib"
 name="tommath"
-includes=["tomcrypt.h"]
+includes=["tommath.h"]
