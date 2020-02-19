@@ -140,8 +140,6 @@ path="https://github.com/catchorg/Catch2.git"
 includes=["catch2/catch.hpp"]
 incdir="single_include"
 
-# file repos WIP
-
 [[library]]
 type="git"
 name="shade"
@@ -166,20 +164,3 @@ type="git"
 name="coeff"
 includes=["coeff/coeff.hpp", "coeff/coeff_reg.hpp"]
 path="https://github.com/antonte/coeff.git"
-
-[[library]]
-type="file"
-name="net"
-path="/home/anton/prj/irl/net"
-includes=[
-  "net/conn.hpp",
-  "net/server.hpp"
-]
-
-[[library]]
-type="file"
-name="sched"
-path="/home/anton/prj/irl/sched"
-includes=[
-  "sched/sched.hpp"
-]
