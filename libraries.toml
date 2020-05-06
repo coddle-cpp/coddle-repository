@@ -1,4 +1,9 @@
 [[library]]
+type="lib"
+name="ircclient"
+includes=["libirc_errors.h", "libirc_events.h", "libirc_options.h", "libirc_rfcnumeric.h", "libircclient.h"]
+
+[[library]]
 type="git"
 name="sdlpp"
 path="https://github.com/antonte/sdlpp.git"
