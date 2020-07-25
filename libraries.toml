@@ -178,7 +178,5 @@ path="https://github.com/antonte/coeff.git"
 [[library]]
 type="pkgconfig"
 name="hiredis"
-includes=[
-"hiredis/hiredis.h"
-]
+includes=["hiredis/hiredis.h"]
 
