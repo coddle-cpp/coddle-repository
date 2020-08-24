@@ -17,7 +17,6 @@ includes=[
   "include/v8.h",
   "include/v8config.h"
 ]
-incdir="/usr/include/nodejs/deps/v8/"
 
 [[library]]
 type="lib"
