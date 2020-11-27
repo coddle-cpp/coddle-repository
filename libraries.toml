@@ -10,14 +10,6 @@ name="Ws2_32"
 includes=["Winsock2.h"]
 
 [[library]]
-type="git"
-name="sdl2"
-path="https://github.com/antonte/sdl2-devel.git"
-incdir="include"
-libdir="lib/x64"
-includes=["SDL.h"]
-
-[[library]]
 type="lib"
 name="glut"
 includes=["GL/glut.h"]
@@ -35,6 +27,11 @@ includes=["SDL_opengl.h", "GL/glut.h"]
 [[library]]
 type="lib"
 name="SDL2main"
+includes=["SDL.h"]
+
+[[library]]
+type="lib"
+name="SDL2"
 includes=["SDL.h"]
 
 [[library]]
