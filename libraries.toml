@@ -208,6 +208,11 @@ name="zlib"
 includes=["zlib.h"]
 
 [[library]]
+type="pkgconfig"
+name="glew"
+includes=["GL/glew.h"]
+
+[[library]]
 type="git"
 name="ser"
 version="main"
