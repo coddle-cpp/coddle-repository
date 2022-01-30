@@ -227,3 +227,8 @@ includes=[
   "ser/schema.hpp",
   "ser/ser.hpp",
 ]
+
+[[library]]
+type="pkgconfig"
+name="sqlite3"
+includes=["sqlite3.h"]
