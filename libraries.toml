@@ -237,7 +237,7 @@ includes=["sqlite3.h"]
 type="git"
 name="midi"
 version="main"
-path="https://github.com/mika314/midi.git"
+path="https://github.com/mika314/midi-parser.git"
 includes=[
   "midi/chunk.hpp",
   "midi/error.hpp",
