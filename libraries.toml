@@ -232,3 +232,18 @@ includes=[
 type="pkgconfig"
 name="sqlite3"
 includes=["sqlite3.h"]
+
+[[library]]
+type="git"
+name="midi"
+version="main"
+path="https://github.com/mika314/midi.git"
+includes=[
+  "midi/chunk.hpp",
+  "midi/error.hpp",
+  "midi/event.hpp",
+  "midi/file.hpp",
+  "midi/header.hpp",
+  "midi/raw.hpp",
+  "midi/track.hpp",
+]
