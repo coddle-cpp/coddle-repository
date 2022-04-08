@@ -247,3 +247,13 @@ includes=[
   "midi/raw.hpp",
   "midi/track.hpp",
 ]
+
+[[library]]
+type="lib"
+name="civetweb"
+includes=["CivetServer.h", "civetweb.h"]
+
+[[library]]
+type="lib"
+name="civetweb-cpp"
+includes=["CivetServer.h"]
