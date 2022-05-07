@@ -257,3 +257,8 @@ includes=["CivetServer.h", "civetweb.h"]
 type="lib"
 name="civetweb-cpp"
 includes=["CivetServer.h"]
+
+[[library]]
+type="pkgconfig"
+name="vulkan"
+includes=["vulkan/vulkan.h"]
