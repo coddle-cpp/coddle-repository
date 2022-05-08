@@ -262,3 +262,12 @@ includes=["CivetServer.h"]
 type="pkgconfig"
 name="vulkan"
 includes=["vulkan/vulkan.h"]
+
+[[library]]
+type="git"
+name="imgui"
+version="docking"
+path="https://github.com/ocornut/imgui.git"
+includes=[
+  "imgui/imgui.h",
+]
