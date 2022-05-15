@@ -266,3 +266,9 @@ path="https://github.com/ocornut/imgui.git"
 includes=[
   "imgui/imgui.h",
 ]
+
+[[library]]
+type="pkgconfig"
+name="libswresample"
+includes=["libswresample/swresample.h"]
+
