@@ -68,7 +68,7 @@ includes=["libavformat/avformat.h"]
 [[library]]
 type="pkgconfig"
 name="libavcodec"
-includes=["libavformat/avformat.h"]
+includes=["libavformat/avformat.h", "libavcodec/avcodec.h", "libavdevice/avdevice.h"]
 
 [[library]]
 type="pkgconfig"
@@ -78,11 +78,6 @@ includes=["libavdevice/avdevice.h"]
 [[library]]
 type="pkgconfig"
 name="libavutil"
-includes=["libavdevice/avdevice.h"]
-
-[[library]]
-type="pkgconfig"
-name="libavcodec"
 includes=["libavdevice/avdevice.h"]
 
 [[library]]
