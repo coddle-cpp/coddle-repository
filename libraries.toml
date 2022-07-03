@@ -477,6 +477,7 @@ includes=["fdk-aac/FDK_audio.h",
 
 [[library]]
 type="git"
+version="main"
 name="json"
 path="https://github.com/mika314/json.git"
 includes=["json/json.hpp"]
