@@ -474,3 +474,9 @@ includes=["fdk-aac/FDK_audio.h",
   "fdk-aac/genericStds.h",
   "fdk-aac/machine_type.h",
   "fdk-aac/syslib_channelMapDescr.h"]
+
+[[library]]
+type="git"
+name="json"
+path="https://github.com/mika314/json.git"
+includes=["json/json.hpp"]
