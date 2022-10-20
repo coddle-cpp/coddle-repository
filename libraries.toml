@@ -486,3 +486,8 @@ includes=["json/json.hpp"]
 type="pkgconfig"
 name="libturbojpeg"
 includes=["turbojpeg.h"]
+
+[[library]]
+type="lib"
+name="cppcms"
+includes=["cppcms/application.h", "cppcms/applications_pool.h", "cppcms/http_response.h", "cppcms/service.h"]
