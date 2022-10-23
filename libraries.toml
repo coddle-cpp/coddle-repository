@@ -491,3 +491,10 @@ includes=["turbojpeg.h"]
 type="lib"
 name="cppcms"
 includes=["cppcms/application.h", "cppcms/applications_pool.h", "cppcms/http_response.h", "cppcms/service.h"]
+
+[[library]]
+type="git"
+name="maddy"
+path="https://github.com/progsource/maddy.git"
+includes=["maddy/parser.h"]
+incdir="include"
