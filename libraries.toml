@@ -498,3 +498,8 @@ name="maddy"
 path="https://github.com/progsource/maddy.git"
 includes=["maddy/parser.h"]
 incdir="include"
+
+[[library]]
+type="pkgconfig"
+name="libmarkdown"
+includes=["mkdio.h"]
