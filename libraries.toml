@@ -503,3 +503,20 @@ incdir="include"
 type="pkgconfig"
 name="libmarkdown"
 includes=["mkdio.h"]
+
+[[library]]
+type="pkgconfig"
+name="speech-dispatcher"
+includes=[
+  "libspeechd.h",
+  "libspeechd_version.h",
+  "spd_audio_plugin.h",
+  "speech-dispatcher",
+  "speech-dispatcher/libspeechd.h",
+  "speech-dispatcher/libspeechd_version.h",
+  "speech-dispatcher/spd_audio_plugin.h",
+  "speech-dispatcher/speechd_defines.h",
+  "speech-dispatcher/speechd_types.h",
+  "speechd_defines.h",
+  "speechd_types.h"]
+
