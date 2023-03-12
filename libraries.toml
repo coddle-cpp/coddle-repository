@@ -535,3 +535,8 @@ includes=["RHVoice.h", "RHVoice_common.h"]
 type="lib"
 name="RHVoice_core"
 includes=["RHVoice.h", "RHVoice_common.h"]
+
+[[library]]
+type="pkgconfig"
+name="cairo"
+includes=["cairo.h"]
