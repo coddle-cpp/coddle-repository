@@ -540,3 +540,8 @@ includes=["RHVoice.h", "RHVoice_common.h"]
 type="pkgconfig"
 name="cairo"
 includes=["cairo.h"]
+
+[[library]]
+type="pkgconfig"
+name="pocketsphinx"
+include=["pocketsphinx.h"]
