@@ -544,4 +544,4 @@ includes=["cairo.h"]
 [[library]]
 type="pkgconfig"
 name="pocketsphinx"
-include=["pocketsphinx.h"]
+includes=["pocketsphinx.h"]
