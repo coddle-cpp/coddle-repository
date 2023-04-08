@@ -47,6 +47,11 @@ includes=["SDL_image.h"]
 
 [[library]]
 type="pkgconfig"
+name="SDL2_net"
+includes=["SDL_net.h"]
+
+[[library]]
+type="pkgconfig"
 name="fftw3"
 includes=["fftw3.h"]
 
