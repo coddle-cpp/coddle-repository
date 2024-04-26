@@ -609,4 +609,4 @@ includes=["stb/stb_c_lexer.h",
 [[library]]
 type="pkgconfig"
 name="atspi-2"
-include=["atspi/atspi.h"]
+includes=["atspi/atspi.h"]
