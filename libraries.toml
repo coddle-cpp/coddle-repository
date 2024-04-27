@@ -610,3 +610,9 @@ includes=["stb/stb_c_lexer.h",
 type="pkgconfig"
 name="atspi-2"
 includes=["atspi/atspi.h"]
+
+# workaround for missing library in atspi
+[[library]]
+type="lib"
+name="gobject-2.0"
+includes=["atspi/atspi.h"]
