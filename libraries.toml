@@ -616,3 +616,10 @@ includes=["atspi/atspi.h"]
 type="lib"
 name="gobject-2.0"
 includes=["atspi/atspi.h"]
+
+[[library]]
+type="git"
+version="main"
+name="json-ser"
+path="https://github.com/mika314/json-ser.git"
+includes=["json-ser/json-ser.hpp"]
