@@ -623,3 +623,10 @@ version="main"
 name="json-ser"
 path="https://github.com/mika314/json-ser.git"
 includes=["json-ser/json-ser.hpp"]
+
+[[library]]
+type="git"
+version="main"
+name="text-to-speech"
+path="https://github.com/mika314/text-to-speech.git"
+includes=["text-to-speech/text-to-speech.hpp"]
