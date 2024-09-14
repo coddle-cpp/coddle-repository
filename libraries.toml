@@ -630,3 +630,10 @@ version="main"
 name="text-to-speech"
 path="https://github.com/mika314/text-to-speech.git"
 includes=["text-to-speech/text-to-speech.hpp"]
+
+[[library]]
+type="git"
+version="RELEASE_1_0_4"
+name="pstream"
+path="https://git.code.sf.net/p/pstreams/code"
+includes=["pstream.h"]
