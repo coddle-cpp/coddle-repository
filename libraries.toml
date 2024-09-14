@@ -636,4 +636,4 @@ type="git"
 version="RELEASE_1_0_4"
 name="pstream"
 path="https://git.code.sf.net/p/pstreams/code"
-includes=["pstream.h"]
+includes=["pstream/pstream.h"]
