@@ -637,3 +637,8 @@ version="RELEASE_1_0_4"
 name="pstream"
 path="https://git.code.sf.net/p/pstreams/code"
 includes=["pstream/pstream.h"]
+
+[[library]]
+type="pkgconfig"
+name="glu"
+includes=["GL/glu.h"]
