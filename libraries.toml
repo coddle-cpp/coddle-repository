@@ -33,7 +33,7 @@ includes=["sdlpp/sdlpp.hpp"]
 [[library]]
 type="pkgconfig"
 name="sdl2"
-includes=["SDL.h"]
+includes=["SDL.h", "SDL2/SDL.h"]
 
 [[library]]
 type="pkgconfig"
