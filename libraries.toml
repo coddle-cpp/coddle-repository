@@ -642,3 +642,10 @@ includes=["pstream/pstream.h"]
 type="pkgconfig"
 name="glu"
 includes=["GL/glu.h"]
+
+[[library]]
+type="git"
+version="main"
+name="curlpp"
+path="https://github.com/mika314/curlpp.git"
+includes=["curlpp/curl.hpp"]
