@@ -654,3 +654,8 @@ includes=["curlpp/curl.hpp"]
 type="pkgconfig"
 name="ImageMagick++-im6.q16"
 includes=["Magick++.h"]
+
+[[library]]
+type="pkgconfig"
+name="opus"
+includes=["opus/h", "opus/opus.h"]
