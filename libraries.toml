@@ -659,3 +659,53 @@ includes=["Magick++.h"]
 type="pkgconfig"
 name="opus"
 includes=["opus/h", "opus/opus.h"]
+
+[[library]]
+type="pkgconfig"
+name="x11"
+includes=[
+  "X11/ImUtil.h",
+  "X11/XKBlib.h",
+  "X11/Xcms.h",
+  "X11/Xlib.h",
+  "X11/XlibConf.h",
+  "X11/Xlibint.h",
+  "X11/Xlocale.h",
+  "X11/Xregion.h",
+  "X11/Xresource.h",
+  "X11/Xutil.h",
+  "X11/cursorfont.h",
+  "X11/extensions/XKBgeom.h"]
+
+[[library]]
+type="pkgconfig"
+name="xi"
+includes=[
+  "X11/extensions/XInput.h",
+  "X11/extensions/XInput2.h"]
+
+[[library]]
+type="pkgconfig"
+name="xext"
+includes=[
+  "X11/extensions/MITMisc.h",
+  "X11/extensions/XEVI.h",
+  "X11/extensions/XLbx.h",
+  "X11/extensions/XShm.h",
+  "X11/extensions/Xag.h",
+  "X11/extensions/Xcup.h",
+  "X11/extensions/Xdbe.h",
+  "X11/extensions/Xext.h",
+  "X11/extensions/Xge.h",
+  "X11/extensions/dpms.h",
+  "X11/extensions/extutil.h",
+  "X11/extensions/multibuf.h",
+  "X11/extensions/security.h",
+  "X11/extensions/shape.h",
+  "X11/extensions/sync.h",
+  "X11/extensions/xtestext1.h"]
+
+[[library]]
+type="pkgconfig"
+name="xfixes"
+includes=[ "X11/extensions/Xfixes.h" ]
