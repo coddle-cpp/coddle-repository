@@ -680,9 +680,7 @@ includes=[
 [[library]]
 type="pkgconfig"
 name="xi"
-includes=[
-  "X11/extensions/XInput.h",
-  "X11/extensions/XInput2.h"]
+includes=[ "X11/extensions/XInput.h", "X11/extensions/XInput2.h"]
 
 [[library]]
 type="pkgconfig"
@@ -709,3 +707,13 @@ includes=[
 type="pkgconfig"
 name="xfixes"
 includes=[ "X11/extensions/Xfixes.h" ]
+
+[[library]]
+type="pkgconfig"
+name="gl"
+includes=[ "GL/gl.h", "GL/glcorearb.h", "GL/glext.h" ]
+
+[[library]]
+type="pkgconfig"
+name="glx"
+includes=[ "GL/glx.h", "GL/glxext.h" ]
