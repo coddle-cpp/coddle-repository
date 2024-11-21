@@ -5,6 +5,30 @@ path="https://github.com/mika314/sdlpp.git"
 includes=["sdlpp/sdlpp.hpp"]
 
 [[library]]
+type="emport"
+name="sdl2"
+flag="-sUSE_SDL=2"
+includes=["SDL.h", "SDL2/SDL.h"]
+
+[[library]]
+type="emport"
+name="SDL2_ttf"
+flag="-sUSE_SDL_TTF=2"
+includes=["SDL_ttf.h", "SDL2/SDL_ttf.h"]
+
+[[library]]
+type="emport"
+name="SDL2_image"
+flag="-sUSE_SDL_IMAGE=2"
+includes=["SDL_image.h"]
+
+[[library]]
+type="emport"
+name="SDL2_net"
+flag="-sUSE_SDL_NET=2"
+includes=["SDL_net.h"]
+
+[[library]]
 type="git"
 name="cpptoml"
 path="https://github.com/mika314/cpptoml.git"
@@ -79,6 +103,12 @@ includes=[
   "ser/schema.hpp",
   "ser/ser.hpp",
 ]
+
+[[library]]
+type="emport"
+name="sqlite3"
+flag="-sUSE_SQLITE3=1"
+includes=["sqlite3.h"]
 
 [[library]]
 type="git"
