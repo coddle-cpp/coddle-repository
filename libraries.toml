@@ -1,124 +1,8 @@
 [[library]]
-type="lib"
-name="v8"
-includes=[
-  "include/libplatform/libplatform-export.h",
-  "include/libplatform/libplatform.h",
-  "include/libplatform/v8-tracing.h",
-  "include/v8-inspector-protocol.h",
-  "include/v8-inspector.h",
-  "include/v8-platform.h",
-  "include/v8-profiler.h",
-  "include/v8-testing.h",
-  "include/v8-util.h",
-  "include/v8-value-serializer-version.h",
-  "include/v8-version-string.h",
-  "include/v8-version.h",
-  "include/v8.h",
-  "include/v8config.h"
-]
-incdirs=["/usr/include/nodejs/deps/v8", "/usr/include/nodejs/deps/v8/include"]
-
-[[library]]
-type="lib"
-name="ircclient"
-includes=["libirc_errors.h", "libirc_events.h", "libirc_options.h", "libirc_rfcnumeric.h", "libircclient.h"]
-
-[[library]]
 type="git"
 name="sdlpp"
 path="https://github.com/mika314/sdlpp.git"
 includes=["sdlpp/sdlpp.hpp"]
-
-[[library]]
-type="pkgconfig"
-name="sdl2"
-includes=["SDL.h", "SDL2/SDL.h"]
-
-[[library]]
-type="pkgconfig"
-name="SDL2_ttf"
-includes=["SDL_ttf.h", "SDL2/SDL_ttf.h"]
-
-[[library]]
-type="pkgconfig"
-name="SDL2_image"
-includes=["SDL_image.h"]
-
-[[library]]
-type="pkgconfig"
-name="SDL2_net"
-includes=["SDL_net.h"]
-
-[[library]]
-type="pkgconfig"
-name="fftw3"
-includes=["fftw3.h"]
-
-[[library]]
-type="pkgconfig"
-name="libswscale"
-includes=["libswscale/swscale.h"]
-
-[[library]]
-type="pkgconfig"
-name="libavformat"
-includes=["libavformat/avformat.h"]
-
-[[library]]
-type="pkgconfig"
-name="libavutil"
-includes=["libavformat/avformat.h"]
-
-[[library]]
-type="pkgconfig"
-name="libavcodec"
-includes=["libavformat/avformat.h", "libavcodec/avcodec.h", "libavdevice/avdevice.h"]
-
-[[library]]
-type="pkgconfig"
-name="libavdevice"
-includes=["libavdevice/avdevice.h"]
-
-[[library]]
-type="pkgconfig"
-name="libavutil"
-includes=["libavdevice/avdevice.h"]
-
-[[library]]
-type="pkgconfig"
-name="libcurl"
-includes=["curl/curl.h"]
-
-[[library]]
-type="pkgconfig"
-name="libpulse"
-includes=["pulse/thread-mainloop.h", "pulse/context.h", "pulse/stream.h", "pulse/scache.h"]
-
-[[library]]
-type="pkgconfig"
-name="gsl"
-includes=["gsl/gsl_fit.h"]
-
-[[library]]
-type="pkgconfig"
-name="jsoncpp"
-includes=["json/json.h"]
-
-[[library]]
-type="lib"
-name="glut"
-includes=["GL/glut.h"]
-
-[[library]]
-type="pkgconfig"
-name="libuv"
-includes=["uv.h"]
-
-[[library]]
-type="lib"
-name="GL"
-includes=["SDL_opengl.h", "GL/glut.h"]
 
 [[library]]
 type="git"
@@ -132,21 +16,6 @@ type="git"
 name="fastnoise"
 path="https://github.com/Auburns/FastNoise.git"
 includes=["fastnoise/FastNoise.h"]
-
-[[library]]
-type="pkgconfig"
-name="libtomcrypt"
-includes=["tomcrypt.h"]
-
-[[library]]
-type="pkgconfig"
-name="libpulse-simple"
-includes=["pulse/simple.h"]
-
-[[library]]
-type="pkgconfig"
-name="libpulse"
-includes=["pulse/simple.h"]
 
 [[library]]
 type="git"
@@ -169,8 +38,6 @@ path="https://github.com/mika314/easy-draw.git"
 includes=[
   "easy_draw/easy_draw.hpp"
 ]
-
-# file repos WIP
 
 [[library]]
 type="git"
@@ -198,21 +65,6 @@ includes=["coeff/coeff.hpp", "coeff/coeff_reg.hpp"]
 path="https://github.com/mika314/coeff.git"
 
 [[library]]
-type="pkgconfig"
-name="hiredis"
-includes=["hiredis/hiredis.h"]
-
-[[library]]
-type="pkgconfig"
-name="zlib"
-includes=["zlib.h"]
-
-[[library]]
-type="pkgconfig"
-name="glew"
-includes=["GL/glew.h"]
-
-[[library]]
 type="git"
 name="ser"
 version="main"
@@ -227,11 +79,6 @@ includes=[
   "ser/schema.hpp",
   "ser/ser.hpp",
 ]
-
-[[library]]
-type="pkgconfig"
-name="sqlite3"
-includes=["sqlite3.h"]
 
 [[library]]
 type="git"
@@ -249,21 +96,6 @@ includes=[
 ]
 
 [[library]]
-type="lib"
-name="civetweb"
-includes=["CivetServer.h", "civetweb.h"]
-
-[[library]]
-type="lib"
-name="civetweb-cpp"
-includes=["CivetServer.h"]
-
-[[library]]
-type="pkgconfig"
-name="vulkan"
-includes=["vulkan/vulkan.h"]
-
-[[library]]
 type="git"
 name="imgui"
 version="docking"
@@ -273,214 +105,6 @@ includes=[
 ]
 
 [[library]]
-type="pkgconfig"
-name="libswresample"
-includes=["libswresample/swresample.h"]
-
-[[library]]
-type="pkgconfig"
-name="libavutil"
-includes=[
-  "libavutil/adler32.h",
-  "libavutil/aes_ctr.h",
-  "libavutil/aes.h",
-  "libavutil/attributes.h",
-  "libavutil/audio_fifo.h",
-  "libavutil/avassert.h",
-  "libavutil/avconfig.h",
-  "libavutil/avstring.h",
-  "libavutil/avutil.h",
-  "libavutil/base64.h",
-  "libavutil/blowfish.h",
-  "libavutil/bprint.h",
-  "libavutil/bswap.h",
-  "libavutil/buffer.h",
-  "libavutil/camellia.h",
-  "libavutil/cast5.h",
-  "libavutil/channel_layout.h",
-  "libavutil/common.h",
-  "libavutil/cpu.h",
-  "libavutil/crc.h",
-  "libavutil/des.h",
-  "libavutil/dict.h",
-  "libavutil/display.h",
-  "libavutil/dovi_meta.h",
-  "libavutil/downmix_info.h",
-  "libavutil/encryption_info.h",
-  "libavutil/error.h",
-  "libavutil/eval.h",
-  "libavutil/ffversion.h",
-  "libavutil/fifo.h",
-  "libavutil/file.h",
-  "libavutil/film_grain_params.h",
-  "libavutil/frame.h",
-  "libavutil/hash.h",
-  "libavutil/hdr_dynamic_metadata.h",
-  "libavutil/hmac.h",
-  "libavutil/hwcontext_cuda.h",
-  "libavutil/hwcontext_d3d11va.h",
-  "libavutil/hwcontext_drm.h",
-  "libavutil/hwcontext_dxva2.h",
-  "libavutil/hwcontext.h",
-  "libavutil/hwcontext_mediacodec.h",
-  "libavutil/hwcontext_opencl.h",
-  "libavutil/hwcontext_qsv.h",
-  "libavutil/hwcontext_vaapi.h",
-  "libavutil/hwcontext_vdpau.h",
-  "libavutil/hwcontext_videotoolbox.h",
-  "libavutil/hwcontext_vulkan.h",
-  "libavutil/imgutils.h",
-  "libavutil/intfloat.h",
-  "libavutil/intreadwrite.h",
-  "libavutil/lfg.h",
-  "libavutil/log.h",
-  "libavutil/lzo.h",
-  "libavutil/macros.h",
-  "libavutil/mastering_display_metadata.h",
-  "libavutil/mathematics.h",
-  "libavutil/md5.h",
-  "libavutil/mem.h",
-  "libavutil/motion_vector.h",
-  "libavutil/murmur3.h",
-  "libavutil/opt.h",
-  "libavutil/parseutils.h",
-  "libavutil/pixdesc.h",
-  "libavutil/pixelutils.h",
-  "libavutil/pixfmt.h",
-  "libavutil/random_seed.h",
-  "libavutil/rational.h",
-  "libavutil/rc4.h",
-  "libavutil/replaygain.h",
-  "libavutil/ripemd.h",
-  "libavutil/samplefmt.h",
-  "libavutil/sha512.h",
-  "libavutil/sha.h",
-  "libavutil/spherical.h",
-  "libavutil/stereo3d.h",
-  "libavutil/tea.h",
-  "libavutil/threadmessage.h",
-  "libavutil/timecode.h",
-  "libavutil/time.h",
-  "libavutil/timestamp.h",
-  "libavutil/tree.h",
-  "libavutil/twofish.h",
-  "libavutil/tx.h",
-  "libavutil/version.h",
-  "libavutil/video_enc_params.h",
-  "libavutil/xtea.h"]
-
-[[library]]
-type="pkgconfig"
-name="rubberband"
-includes=["rubberband/RubberBandStretcher.h", "rubberband/rubberband-c.h"]
-
-[[library]]
-type="pkgconfig"
-name="libobs"
-includes=[
-  "obs/audio-monitoring/pulse/pulseaudio-wrapper.h",
-  "obs/callback/calldata.h",
-  "obs/callback/decl.h",
-  "obs/callback/proc.h",
-  "obs/callback/signal.h",
-  "obs/graphics/axisang.h",
-  "obs/graphics/bounds.h",
-  "obs/graphics/device-exports.h",
-  "obs/graphics/effect-parser.h",
-  "obs/graphics/effect.h",
-  "obs/graphics/graphics-internal.h",
-  "obs/graphics/graphics.h",
-  "obs/graphics/half.h",
-  "obs/graphics/image-file.h",
-  "obs/graphics/input.h",
-  "obs/graphics/libnsgif/libnsgif.h",
-  "obs/graphics/math-defs.h",
-  "obs/graphics/math-extra.h",
-  "obs/graphics/matrix3.h",
-  "obs/graphics/matrix4.h",
-  "obs/graphics/plane.h",
-  "obs/graphics/quat.h",
-  "obs/graphics/shader-parser.h",
-  "obs/graphics/srgb.h",
-  "obs/graphics/vec2.h",
-  "obs/graphics/vec3.h",
-  "obs/graphics/vec4.h",
-  "obs/media-io/audio-io.h",
-  "obs/media-io/audio-math.h",
-  "obs/media-io/audio-resampler.h",
-  "obs/media-io/format-conversion.h",
-  "obs/media-io/frame-rate.h",
-  "obs/media-io/media-io-defs.h",
-  "obs/media-io/media-remux.h",
-  "obs/media-io/video-frame.h",
-  "obs/media-io/video-io.h",
-  "obs/media-io/video-scaler.h",
-  "obs/obs-audio-controls.h",
-  "obs/obs-avc.h",
-  "obs/obs-config.h",
-  "obs/obs-data.h",
-  "obs/obs-defs.h",
-  "obs/obs-encoder.h",
-  "obs/obs-ffmpeg-compat.h",
-  "obs/obs-frontend-api.h",
-  "obs/obs-hotkey.h",
-  "obs/obs-hotkeys.h",
-  "obs/obs-interaction.h",
-  "obs/obs-internal.h",
-  "obs/obs-missing-files.h",
-  "obs/obs-module.h",
-  "obs/obs-nix-platform.h",
-  "obs/obs-output.h",
-  "obs/obs-properties.h",
-  "obs/obs-scene.h",
-  "obs/obs-service.h",
-  "obs/obs-source.h",
-  "obs/obs-ui.h",
-  "obs/obs.h",
-  "obs/obs.hpp",
-  "obs/obsconfig.h",
-  "obs/util",
-  "obs/util/array-serializer.h",
-  "obs/util/base.h",
-  "obs/util/bitstream.h",
-  "obs/util/bmem.h",
-  "obs/util/c99defs.h",
-  "obs/util/cf-lexer.h",
-  "obs/util/cf-parser.h",
-  "obs/util/circlebuf.h",
-  "obs/util/config-file.h",
-  "obs/util/crc32.h",
-  "obs/util/curl/curl-helper.h",
-  "obs/util/darray.h",
-  "obs/util/dstr.h",
-  "obs/util/file-serializer.h",
-  "obs/util/lexer.h",
-  "obs/util/pipe.h",
-  "obs/util/platform.h",
-  "obs/util/profiler.h",
-  "obs/util/profiler.hpp",
-  "obs/util/serializer.h",
-  "obs/util/sse-intrin.h",
-  "obs/util/task.h",
-  "obs/util/text-lookup.h",
-  "obs/util/threading-posix.h",
-  "obs/util/threading.h",
-  "obs/util/utf8.h",
-  "obs/util/util.hpp",
-  "obs/util/util_uint128.h",
-  "obs/util/util_uint64.h"]
-
-[[library]]
-type="pkgconfig"
-name="fdk-aac"
-includes=["fdk-aac/FDK_audio.h",
-  "fdk-aac/aacdecoder_lib.h",
-  "fdk-aac/aacenc_lib.h",
-  "fdk-aac/genericStds.h",
-  "fdk-aac/machine_type.h",
-  "fdk-aac/syslib_channelMapDescr.h"]
-
-[[library]]
 type="git"
 version="main"
 name="json"
@@ -488,68 +112,11 @@ path="https://github.com/mika314/json.git"
 includes=["json/json.hpp"]
 
 [[library]]
-type="pkgconfig"
-name="libturbojpeg"
-includes=["turbojpeg.h"]
-
-[[library]]
-type="lib"
-name="cppcms"
-includes=["cppcms/application.h", "cppcms/applications_pool.h", "cppcms/http_response.h", "cppcms/service.h"]
-
-[[library]]
 type="git"
 name="maddy"
 path="https://github.com/progsource/maddy.git"
 includes=["maddy/parser.h"]
 incdir="include"
-
-[[library]]
-type="pkgconfig"
-name="libmarkdown"
-includes=["mkdio.h"]
-
-[[library]]
-type="pkgconfig"
-name="speech-dispatcher"
-includes=[
-  "libspeechd.h",
-  "libspeechd_version.h",
-  "spd_audio_plugin.h",
-  "speech-dispatcher",
-  "speech-dispatcher/libspeechd.h",
-  "speech-dispatcher/libspeechd_version.h",
-  "speech-dispatcher/spd_audio_plugin.h",
-  "speech-dispatcher/speechd_defines.h",
-  "speech-dispatcher/speechd_types.h",
-  "speechd_defines.h",
-  "speechd_types.h"]
-
-
-[[library]]
-type="lib"
-name="RHVoice"
-includes=["RHVoice.h", "RHVoice_common.h"]
-
-[[library]]
-type="lib"
-name="RHVoice_audio"
-includes=["RHVoice.h", "RHVoice_common.h"]
-
-[[library]]
-type="lib"
-name="RHVoice_core"
-includes=["RHVoice.h", "RHVoice_common.h"]
-
-[[library]]
-type="pkgconfig"
-name="cairo"
-includes=["cairo.h"]
-
-[[library]]
-type="pkgconfig"
-name="pocketsphinx"
-includes=["pocketsphinx.h"]
 
 [[library]]
 type="git"
@@ -607,17 +174,6 @@ includes=["stb/stb_c_lexer.h",
           "stb/stb_voxel_render.h"]
 
 [[library]]
-type="pkgconfig"
-name="atspi-2"
-includes=["atspi/atspi.h"]
-
-# workaround for missing library in atspi
-[[library]]
-type="lib"
-name="gobject-2.0"
-includes=["atspi/atspi.h"]
-
-[[library]]
 type="git"
 version="main"
 name="json-ser"
@@ -639,81 +195,8 @@ path="https://git.code.sf.net/p/pstreams/code"
 includes=["pstream/pstream.h"]
 
 [[library]]
-type="pkgconfig"
-name="glu"
-includes=["GL/glu.h"]
-
-[[library]]
 type="git"
 version="main"
 name="curlpp"
 path="https://github.com/mika314/curlpp.git"
 includes=["curlpp/curl.hpp"]
-
-[[library]]
-type="pkgconfig"
-name="ImageMagick++-im6.q16"
-includes=["Magick++.h"]
-
-[[library]]
-type="pkgconfig"
-name="opus"
-includes=["opus/h", "opus/opus.h"]
-
-[[library]]
-type="pkgconfig"
-name="x11"
-includes=[
-  "X11/ImUtil.h",
-  "X11/XKBlib.h",
-  "X11/Xcms.h",
-  "X11/Xlib.h",
-  "X11/XlibConf.h",
-  "X11/Xlibint.h",
-  "X11/Xlocale.h",
-  "X11/Xregion.h",
-  "X11/Xresource.h",
-  "X11/Xutil.h",
-  "X11/cursorfont.h",
-  "X11/extensions/XKBgeom.h"]
-
-[[library]]
-type="pkgconfig"
-name="xi"
-includes=[ "X11/extensions/XInput.h", "X11/extensions/XInput2.h"]
-
-[[library]]
-type="pkgconfig"
-name="xext"
-includes=[
-  "X11/extensions/MITMisc.h",
-  "X11/extensions/XEVI.h",
-  "X11/extensions/XLbx.h",
-  "X11/extensions/XShm.h",
-  "X11/extensions/Xag.h",
-  "X11/extensions/Xcup.h",
-  "X11/extensions/Xdbe.h",
-  "X11/extensions/Xext.h",
-  "X11/extensions/Xge.h",
-  "X11/extensions/dpms.h",
-  "X11/extensions/extutil.h",
-  "X11/extensions/multibuf.h",
-  "X11/extensions/security.h",
-  "X11/extensions/shape.h",
-  "X11/extensions/sync.h",
-  "X11/extensions/xtestext1.h"]
-
-[[library]]
-type="pkgconfig"
-name="xfixes"
-includes=[ "X11/extensions/Xfixes.h" ]
-
-[[library]]
-type="pkgconfig"
-name="gl"
-includes=[ "GL/gl.h", "GL/glcorearb.h", "GL/glext.h" ]
-
-[[library]]
-type="pkgconfig"
-name="glx"
-includes=[ "GL/glx.h", "GL/glxext.h" ]
