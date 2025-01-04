@@ -717,3 +717,8 @@ includes=[ "GL/gl.h", "GL/glcorearb.h", "GL/glext.h" ]
 type="pkgconfig"
 name="glx"
 includes=[ "GL/glx.h", "GL/glxext.h" ]
+
+[[library]]
+type="pkgconfig"
+name="gumbo"
+includes=[ "gumbo.h" ]
