@@ -145,8 +145,13 @@ includes=["pulse/simple.h"]
 
 [[library]]
 type="pkgconfig"
+name="libpulse-mainloop-glib"
+includes=["pulse/mainloop.h"]
+
+[[library]]
+type="pkgconfig"
 name="libpulse"
-includes=["pulse/simple.h"]
+includes=["pulse/simple.h", "pulse/mainloop.h"]
 
 [[library]]
 type="git"
