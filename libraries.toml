@@ -42,7 +42,7 @@ includes=["SDL_ttf.h", "SDL2/SDL_ttf.h"]
 
 [[library]]
 type="pkgconfig"
-name="SDL_mixer"
+name="SDL2_mixer"
 includes=["SDL_mixer.h", "SDL2/SDL_mixer.h"]
 
 [[library]]
