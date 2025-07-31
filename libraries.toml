@@ -637,6 +637,13 @@ includes=["json-ser/json-ser.hpp"]
 [[library]]
 type="git"
 version="main"
+name="msgpack"
+path="https://github.com/mika314/msgpack.git"
+includes=["msgpack/msgpack.hpp", "msgpack/msgpack-ser.hpp"]
+
+[[library]]
+type="git"
+version="main"
 name="text-to-speech"
 path="https://github.com/mika314/text-to-speech.git"
 includes=["text-to-speech/text-to-speech.hpp"]
