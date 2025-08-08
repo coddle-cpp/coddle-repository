@@ -739,3 +739,10 @@ includes=[ "GL/glx.h", "GL/glxext.h" ]
 type="pkgconfig"
 name="gumbo"
 includes=[ "gumbo.h" ]
+
+[[library]]
+type="git"
+version="main"
+name="shpp"
+path="https://github.com/mika314/shpp.git"
+includes=["shpp/shpp.hpp"]
