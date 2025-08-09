@@ -746,3 +746,8 @@ version="main"
 name="shpp"
 path="https://github.com/mika314/shpp.git"
 includes=["shpp/shpp.hpp"]
+
+[[library]]
+type="pkgconfig"
+name="vterm"
+includes=["vterm.h"]
