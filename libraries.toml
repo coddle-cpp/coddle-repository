@@ -1,7 +1,7 @@
 [[library]]
 type="git"
 name="sdlpp"
-path="https://github.com/antonte/sdlpp.git"
+path="https://github.com/mika314/sdlpp.git"
 includes=["sdlpp/sdlpp.hpp"]
 
 [[library]]
@@ -63,7 +63,7 @@ incdir="single_include"
 [[library]]
 type="git"
 name="easy_draw"
-path="https://github.com/antonte/easy-draw.git"
+path="https://github.com/mika314/easy-draw.git"
 includes=[
   "easy_draw/easy_draw.hpp"
 ]
@@ -73,7 +73,7 @@ includes=[
 [[library]]
 type="git"
 name="shade"
-path="https://github.com/antonte/shade.git"
+path="https://github.com/mika314/shade.git"
 includes=[
   "shade/array_buffer.hpp",
   "shade/gl_check_error.hpp",
@@ -87,13 +87,13 @@ includes=[
 type="git"
 name="log"
 includes=["log/log.hpp"]
-path="https://github.com/antonte/log.git"
+path="https://github.com/mika314/log.git"
 
 [[library]]
 type="git"
 name="coeff"
 includes=["coeff/coeff.hpp", "coeff/coeff_reg.hpp"]
-path="https://github.com/antonte/coeff.git"
+path="https://github.com/mika314/coeff.git"
 
 [[library]]
 type="git"
@@ -237,3 +237,18 @@ includes=["stb/stb_c_lexer.h",
           "stb/stb_truetype.h",
           "stb/stb_voxel_render.h"]
 
+[[library]]
+type="git"
+name="ser"
+version="main"
+path="https://github.com/mika314/ser.git"
+includes=[
+  "ser/is_serializable.hpp",
+  "ser/istrm.hpp",
+  "ser/macro.hpp",
+  "ser/ostrm.hpp",
+  "ser/overloaded.hpp",
+  "ser/proto.hpp",
+  "ser/schema.hpp",
+  "ser/ser.hpp",
+]
