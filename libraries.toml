@@ -30,6 +30,11 @@ name="SDL2_net"
 includes=["SDL_net.h", "SDL2/SDL_net.h"]
 
 [[library]]
+type="pkgconfig"
+name="libcurl"
+includes=["curl/curl.h"]
+
+[[library]]
 type="lib"
 name="Ws2_32"
 includes=["Winsock2.h"]
@@ -194,9 +199,11 @@ includes=["stb/stb_c_lexer.h",
           "stb/stb_voxel_render.h"]
 
 [[library]]
-type="pkgconfig"
-name="libcurl"
-includes=["curl/curl.h"]
+type="git"
+version="main"
+name="json-ser"
+path="https://github.com/mika314/json-ser.git"
+includes=["json-ser/json-ser.hpp"]
 
 [[library]]
 type="lib"
