@@ -5,9 +5,39 @@ path="https://github.com/mika314/sdlpp.git"
 includes=["sdlpp/sdlpp.hpp"]
 
 [[library]]
+type="pkgconfig"
+name="sdl2"
+includes=["SDL.h", "SDL2/SDL.h"]
+
+[[library]]
+type="pkgconfig"
+name="SDL2_ttf"
+includes=["SDL_ttf.h", "SDL2/SDL_ttf.h"]
+
+[[library]]
+type="pkgconfig"
+name="SDL2_mixer"
+includes=["SDL_mixer.h", "SDL2/SDL_mixer.h"]
+
+[[library]]
+type="pkgconfig"
+name="SDL2_image"
+includes=["SDL_image.h", "SDL2/SDL_image.h"]
+
+[[library]]
+type="pkgconfig"
+name="SDL2_net"
+includes=["SDL_net.h", "SDL2/SDL_net.h"]
+
+[[library]]
 type="lib"
 name="Ws2_32"
 includes=["Winsock2.h"]
+
+[[library]]
+type="pkgconfig"
+name="jsoncpp"
+includes=["json/json.h"]
 
 [[library]]
 type="lib"
@@ -15,29 +45,19 @@ name="glut"
 includes=["GL/glut.h"]
 
 [[library]]
-type="lib"
+type="pkgconfig"
 name="libuv"
 includes=["uv.h"]
 
 [[library]]
 type="lib"
 name="GL"
-includes=["SDL_opengl.h", "GL/glut.h"]
-
-[[library]]
-type="lib"
-name="SDL2main"
-includes=["SDL.h"]
-
-[[library]]
-type="lib"
-name="SDL2"
-includes=["SDL.h"]
+includes=["SDL_opengl.h", "GL/glut.h", "SDL2/SDL_opengl.h"]
 
 [[library]]
 type="git"
 name="cpptoml"
-path="https://github.com/skystrife/cpptoml.git"
+path="https://github.com/mika314/cpptoml.git"
 includes=["cpptoml.h"]
 incdir="include"
 
@@ -97,10 +117,81 @@ path="https://github.com/mika314/coeff.git"
 
 [[library]]
 type="git"
+name="ser"
+version="main"
+path="https://github.com/mika314/ser.git"
+includes=[
+  "ser/is_serializable.hpp",
+  "ser/istrm.hpp",
+  "ser/macro.hpp",
+  "ser/ostrm.hpp",
+  "ser/overloaded.hpp",
+  "ser/proto.hpp",
+  "ser/schema.hpp",
+  "ser/ser.hpp",
+]
+
+[[library]]
+type="git"
+version="main"
+name="json"
+path="https://github.com/mika314/json.git"
+includes=["json/json.hpp"]
+
+[[library]]
+type="git"
 name="glm"
-includes=[ "glm/gtx/normal.hpp", "glm/gtx/transform.hpp", "glm/gtx/vec_swizzle.hpp", "glm/mat4x4.hpp", "glm/vec2.hpp", "glm/vec3.hpp" ]
 path="https://github.com/g-truc/glm.git"
+includes=["glm/common.hpp",
+          "glm/exponential.hpp",
+          "glm/ext.hpp",
+          "glm/fwd.hpp",
+          "glm/geometric.hpp",
+          "glm/glm.hpp",
+          "glm/integer.hpp",
+          "glm/mat2x2.hpp",
+          "glm/mat2x3.hpp",
+          "glm/mat2x4.hpp",
+          "glm/mat3x2.hpp",
+          "glm/mat3x3.hpp",
+          "glm/mat3x4.hpp",
+          "glm/mat4x2.hpp",
+          "glm/mat4x3.hpp",
+          "glm/mat4x4.hpp",
+          "glm/matrix.hpp",
+          "glm/packing.hpp",
+          "glm/trigonometric.hpp",
+          "glm/vec2.hpp",
+          "glm/vec3.hpp",
+          "glm/vec4.hpp",
+          "glm/vector_relational.hpp"]
 incdir="."
+
+[[library]]
+type="git"
+version="master"
+name="stb"
+path="https://github.com/nothings/stb.git"
+includes=["stb/stb_c_lexer.h",
+          "stb/stb_connected_components.h",
+          "stb/stb_divide.h",
+          "stb/stb_ds.h",
+          "stb/stb_dxt.h",
+          "stb/stb_easy_font.h",
+          "stb/stb_herringbone_wang_tile.h",
+          "stb/stb_hexwave.h",
+          "stb/stb_image.h",
+          "stb/stb_image_resize.h",
+          "stb/stb_image_write.h",
+          "stb/stb_include.h",
+          "stb/stb_leakcheck.h",
+          "stb/stb_perlin.h",
+          "stb/stb_rect_pack.h",
+          "stb/stb_sprintf.h",
+          "stb/stb_textedit.h",
+          "stb/stb_tilemap_editor.h",
+          "stb/stb_truetype.h",
+          "stb/stb_voxel_render.h"]
 
 [[library]]
 type="pkgconfig"
@@ -210,45 +301,3 @@ includes=[
   "assimp/vector3.h",
   "assimp/vector3.inl",
   "assimp/version.h"]
-
-[[library]]
-type="git"
-version="master"
-name="stb"
-path="https://github.com/nothings/stb.git"
-includes=["stb/stb_c_lexer.h",
-          "stb/stb_connected_components.h",
-          "stb/stb_divide.h",
-          "stb/stb_ds.h",
-          "stb/stb_dxt.h",
-          "stb/stb_easy_font.h",
-          "stb/stb_herringbone_wang_tile.h",
-          "stb/stb_hexwave.h",
-          "stb/stb_image.h",
-          "stb/stb_image_resize.h",
-          "stb/stb_image_write.h",
-          "stb/stb_include.h",
-          "stb/stb_leakcheck.h",
-          "stb/stb_perlin.h",
-          "stb/stb_rect_pack.h",
-          "stb/stb_sprintf.h",
-          "stb/stb_textedit.h",
-          "stb/stb_tilemap_editor.h",
-          "stb/stb_truetype.h",
-          "stb/stb_voxel_render.h"]
-
-[[library]]
-type="git"
-name="ser"
-version="main"
-path="https://github.com/mika314/ser.git"
-includes=[
-  "ser/is_serializable.hpp",
-  "ser/istrm.hpp",
-  "ser/macro.hpp",
-  "ser/ostrm.hpp",
-  "ser/overloaded.hpp",
-  "ser/proto.hpp",
-  "ser/schema.hpp",
-  "ser/ser.hpp",
-]
