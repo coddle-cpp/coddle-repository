@@ -844,3 +844,10 @@ includes=[
   "assimp/vector3.h",
   "assimp/vector3.inl",
   "assimp/version.h"]
+
+[[library]]
+type="git"
+version="master"
+name="miniaudio"
+path="https://github.com/mackron/miniaudio.git"
+includes=["miniaudio/miniaudio.h"]
