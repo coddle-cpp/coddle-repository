@@ -851,3 +851,11 @@ version="master"
 name="miniaudio"
 path="https://github.com/mackron/miniaudio.git"
 includes=["miniaudio/miniaudio.h"]
+
+[[library]]
+type="git"
+version="master"
+name="oup"
+path="https://github.com/cschreib/observable_unique_ptr.git"
+includes=["oup/observable_unique_ptr.hpp"]
+incdir="include"
