@@ -854,7 +854,7 @@ includes=["miniaudio/miniaudio.h"]
 
 [[library]]
 type="git"
-version="master"
+version="main"
 name="oup"
 path="https://github.com/cschreib/observable_unique_ptr.git"
 includes=["oup/observable_unique_ptr.hpp"]
