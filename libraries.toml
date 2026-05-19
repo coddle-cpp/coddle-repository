@@ -313,3 +313,11 @@ includes=[
   "assimp/vector3.h",
   "assimp/vector3.inl",
   "assimp/version.h"]
+
+[[library]]
+type="git"
+version="v3.16.0"
+name="entt"
+path="https://github.com/skypjack/entt.git"
+includes=["entt/entt.hpp"]
+incdir="src"
