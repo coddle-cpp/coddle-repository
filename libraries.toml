@@ -22,7 +22,7 @@ incdirs=["/usr/include/nodejs/deps/v8", "/usr/include/nodejs/deps/v8/include"]
 [[library]]
 type="lib"
 name="ircclient"
-includes=["libirc_errors.h", "libirc_events.h", "libirc_options.h", "libirc_rfcnumeric.h", "libircclient.h"]
+includes=["libirc_errors.h", "libirc_events.h", "libirc_options.h", "libirc_rfcnumeric.h", "libircclient.h", "libircclient/libircclient.h"]
 
 [[library]]
 type="git"
