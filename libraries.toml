@@ -11,6 +11,11 @@ includes=["SDL.h", "SDL2/SDL.h"]
 
 [[library]]
 type="pkgconfig"
+name="sdl3"
+includes=["SDL3/SDL.h"]
+
+[[library]]
+type="pkgconfig"
 name="SDL2_ttf"
 includes=["SDL_ttf.h", "SDL2/SDL_ttf.h"]
 
