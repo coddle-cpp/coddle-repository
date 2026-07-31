@@ -324,7 +324,7 @@ incdir="src"
 
 [[library]]
 type="git"
-version="master"
+version="v0.7.3"
 name="oup"
 path="https://github.com/cschreib/observable_unique_ptr.git"
 includes=["oup/observable_unique_ptr.hpp"]
